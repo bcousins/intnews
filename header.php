@@ -40,7 +40,8 @@ function head() {
 		echo "<link REL=\"shortcut icon\" HREF=\"themes/$ThemeSel/images/favicon.ico\" TYPE=\"image/x-icon\">\n";
 	}
 	echo "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS\" href=\"backend.php\">\n";
-	echo "<LINK REL=\"StyleSheet\" HREF=\"themes/$ThemeSel/style/style.css\" TYPE=\"text/css\">\n\n\n";
+	echo "<LINK REL=\"StyleSheet\" HREF=\"themes/$ThemeSel/style/style.css\" TYPE=\"text/css\">\n";
+	echo "<link rel=\"stylesheet\" href=\"themes/DeepBlue/forums/{T_HEAD_STYLESHEET}\" type=\"text/css\">\n\n";
 	if (file_exists("includes/custom_files/custom_head.php")) {
 		include_once("includes/custom_files/custom_head.php");
 	}
