@@ -61,12 +61,12 @@ if (stristr(htmlentities($_SERVER['PHP_SELF']), "config.php")) {
 
 $dbhost = "localhost";
 $dbuname = "root";
-$dbpass = "";
-$dbname = "";
+$dbpass = "root";
+$dbname = "intnews";
 $prefix = "nuke";
 $user_prefix = "nuke";
 $dbtype = "MySQL";
-$sitekey = "TRsDEFmcZD6Cx7Y0mMtwdNmczZPeqhAR8eIm1Ia4";
+$sitekey = "lWo5zf6x0fnlv2pUZryxCZYrz1WhxkLNP4d78HFY";
 $gfx_chk = 0;
 $subscription_url = "";
 $admin_file = "admin";
